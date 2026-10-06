@@ -318,10 +318,10 @@ entities:
           - dps_val: high
             value: 100
             icon: "mdi:volume-high"
-          - dps_val: upper-middle
+          - dps_val: upper_middle
             value: 75
             icon: "mdi:volume-medium"
-          - dps_val: lower-middle
+          - dps_val: lower_middle
             value: 50
             icon: "mdi:volume-medium"
           - dps_val: low
