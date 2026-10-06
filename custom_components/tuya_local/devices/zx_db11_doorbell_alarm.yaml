@@ -1,6 +1,7 @@
 name: Doorbell
 products:
   - id: oqn2dj8otuhqhulr
+    manufacturer: Shenzhen Smartrol
     model: ZX-DB11
 entities:
   - entity: binary_sensor

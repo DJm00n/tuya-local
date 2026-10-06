@@ -1,6 +1,7 @@
 name: Gas leak detector
 products:
   - id: ozcdjaqrxauonq1f
+    manufacturer: Shenzhen Smartrol
     model: ZX-GS21
 entities:
   - entity: sensor
