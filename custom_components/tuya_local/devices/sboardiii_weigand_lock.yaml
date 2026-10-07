@@ -4,6 +4,10 @@ products:
     manufacturer: Secukey
     model: Sboard III mini
     name: Wiegand access control interface
+  - id: 1e5tpb9qthjszmad
+    manufacturer: Asia-Teco
+    model: S601-EM-W-Wifi
+    model_id: T12-III
 entities:
   - entity: lock
     dps:
@@ -182,11 +186,24 @@ entities:
             value: ring
           - value: null
   - entity: event
+    name: Doorbell call
+    class: doorbell
+    dps:
+      - id: 124
+        type: boolean
+        name: event
+        optional: true
+        mapping:
+          - dps_val: true
+            value: ring
+          - value: null
+  - entity: event
     name: Retries
     category: diagnostic
     dps:
       - id: 102
         type: boolean
+        optional: true
         name: event
         mapping:
           - dps_val: true
